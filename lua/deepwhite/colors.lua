@@ -9,7 +9,7 @@ function M.get_colors(options)
 		base4 = "#B3B1AD", -- hsv(40, 3%, 70%)
 		base5 = "#CCCBC6", -- hsv(50, 3%, 80%)
 		base6 = "#E6E4DF", -- hsv(43, 3%, 90%)
-		base7 = "#FAF2EB", -- hsv(24, 4%, 98%)
+		base7 = "#FAFAF1", -- hsv(60, 4%, 98%)
 
 		light_orange = "#FAE1C8", -- hsv(30, 20%, 98%)
 		light_yellow = "#FAFAC8", -- hsv(60, 20%, 98%)
@@ -30,7 +30,7 @@ function M.get_colors(options)
 		red = "#A60000", -- hsv(360, 100%, 65%)
 	}
 	if options.low_blue_light then
-		colors.base7 = "#FAFAFA" -- hsv(60, 0%, 98%)
+		colors.base7 = "#FAFAF1" -- hsv(60, 0%, 98%)
 	end
 	return colors
 end
